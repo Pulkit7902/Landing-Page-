@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+   
+
+}
+#back{
+    width: 100%;
+    height: 100vh;
+
+
+    background-color: black;
+    
+
+
+}
+#back img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#top{
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+
+    
+
+
+}
+#workingarea{
+    
+    position: relative;
+    width: 80%;
+    margin:0  auto;
+    height: 100vh;
+    max-width: 1920px;
+   
+
+}
+#nav{
+    pointer-events: all;
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+
+}
+img{
+    height: 60px;
+    width: 70px;
+
+}
+#nleft , #nright{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#nleft a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+
+}
+
+#nright a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+
+}
+#hero{
+    
+    /* height wise cwntre lana hai */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0% , -50%);
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+   /* background-color: red; */
+
+}
+
+#heroleft{
+    min-width: 50%;
+    
+    /* background-color: green; */
+
+}
+#heroleft .elem{
+    position: relative;
+    left: -45px;
+    /* background-color: red; */
+    height: 11vw;
+    /* overflow: hidden; */
+}
+#heroleft .elem h1:nth-child(1){
+    top: 0;
+
+}
+#heroleft .elem h1{
+    position: absolute;
+    top: 100%;
+    line-height: 0.9;
+    font-family: "kajiro";
+    color: #fff;
+    font-weight: 200;
+    font-size: 13vw;
+
+
+
+
+}
+#heroright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 4px;
+
+
+
+    width: 20%;
+    color: black;
+    
+    /* background-color: yellow; */
+
+}
+.btn{
+    pointer-events: all;
+    cursor: pointer;
+    margin-top: 2vw;
+   padding:12px 32px ;
+   font-size: 3vw;
+   font-family: "kajiro"; 
+}
+#heroright p{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+    color: #fff;
+    
+    
+
+}
+#heroright #imagediv{
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: red;
+    background-image: url(photo-1529139574466-a303027c1d8b.webp);
+    background-size: cover;
+    background-position: center;
+
+}
